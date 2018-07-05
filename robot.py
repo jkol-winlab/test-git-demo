@@ -22,7 +22,7 @@ for part in parts:
 
 print("starting data collection")
 
-while True:
+for i in range(0, 5):
     for part in parts:
         part.getData()
 
