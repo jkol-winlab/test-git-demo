@@ -20,8 +20,9 @@ print("These are the parts I have installed")
 for part in parts:
     part.start()
 
-for part in parts:
-    part.getData()
+while True:
+    for part in parts:
+        part.getData()
 
 for part in parts:
     part.stop()
