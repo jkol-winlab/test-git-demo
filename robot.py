@@ -20,9 +20,13 @@ print("These are the parts I have installed")
 for part in parts:
     part.start()
 
+print("starting data collection")
+
 while True:
     for part in parts:
         part.getData()
+
+print("stopping data collection")
 
 for part in parts:
     part.stop()
