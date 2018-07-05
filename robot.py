@@ -21,4 +21,7 @@ for part in parts:
     part.start()
 
 for part in parts:
+    part.getData()
+
+for part in parts:
     part.stop()
